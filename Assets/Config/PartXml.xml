@@ -1,0 +1,963 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content>
+  <WorkShop Name="Knit">
+    <ProductLine Name="Circular">
+      <Equipment Name="danmianji">
+        <EquipmentList>
+          <Part ShowName="喂纱机构" Name="ZZweishajigou" ID="0" Type="0" Path="_Part/ZZ_weishajigou" isHaveChild="N" Dis="7" Min="6" Max="9">
+          </Part>
+          <Part ShowName="编织机构" Name="ZZbianzhijigou" ID="0" Type="0" Path="_Part/ZZ_bianzhijigou" isHaveChild="N" Dis="7" Min="6" Max="9">
+          </Part>
+          <Part ShowName="牵拉卷取机构" Name="ZZqianlajuanqujigou" ID="0" Type="0" Path="_Part/ZZ_qianlajuanqujigou" isHaveChild="N" Dis="7" Min="6" Max="9">
+          </Part>
+        </EquipmentList>
+        <AnimationList>
+          <Cartoon  ShowName="单面机成圈过程"  Name="danmianjichengquan" Path="danmianjichengquan.mp4">
+          </Cartoon>
+          <Cartoon  ShowName="纱线喂入过程"  Name="chengquanjigouyuanli" Path="chengquanjigouyuanli.mp4">
+          </Cartoon>
+          <Cartoon  ShowName="线圈长度调节" Name="daoshajiegouyuanli" Path="daoshajiegouyuanli.mp4">
+          </Cartoon>
+          <Cartoon  ShowName="纬平针组织(正)" Name="weipingzhenzheng" Path="weipingzhenzheng.mp4">
+          </Cartoon>
+          <Cartoon ShowName="纬平针组织(反)" Name="weipingzhenfan" Path="weipingzhenfan.mp4">
+          </Cartoon>
+          <Cartoon ShowName="纬平针走针轨迹" Name="weipingzhenzouzhen" Path="weipingzhenzouzhen.mp4">
+          </Cartoon>
+          <Cartoon ShowName="网眼组织走针轨迹" Name="wangyanzouzhen" Path="wangyanzouzhen.mp4">
+          </Cartoon>
+          <Cartoon ShowName="珠地网眼走针轨迹" Name="diwangyanzouzhen" Path="diwangyanzouzhen.mp4">
+          </Cartoon>
+          <Cartoon ShowName="平针衬垫组织" Name="pingzhenchendian" Path="pingzhenchendian.mp4">
+          </Cartoon>
+          <Cartoon ShowName="添纱衬垫组织" Name="tianshachendian" Path="tianshachendian.mp4">
+          </Cartoon>
+        </AnimationList>
+        <TranningList>
+          <Part ShowName="编织机构" Name="DMJJB" Path="Temp/DMJJB"  NameC="Check_C"  NameZ="Check_DMJJB_z" >
+          </Part>
+          <Part ShowName="组装调试" Name="zuzhuangtiaoshi" Path="" NameC="DanMianJi"  NameZ="DanMianJi" >
+          </Part>
+        </TranningList>
+      </Equipment>
+      <Equipment Name="diannaotihuaji">
+        <AnimationList>
+          <Cartoon ShowName="集圈组织" Name="jiquanzuzhi" Path="jiquanzuzhi.mp4">
+          </Cartoon>
+          <Cartoon ShowName="浮线" Name="fuxian" Path="fuxian.mp4">
+          </Cartoon>
+          <Cartoon ShowName="集圈" Name="jiquan" Path="jiquan.mp4">
+          </Cartoon>
+          <Cartoon ShowName="成圈" Name="chengquan" Path="chengquan.mp4">
+          </Cartoon>
+        </AnimationList>
+      </Equipment>
+      <Equipment Name="luowenji">
+        <AnimationList>
+          <Cartoon ShowName="罗纹机" Name="luowenji" Path="luowenji.mp4">
+          </Cartoon>
+          <Cartoon ShowName="双面圆纬机弯纱" Name="shuangmianyuanwei" Path="shuangmianyuanwei.mp4">
+          </Cartoon>
+          <Cartoon ShowName="1+1罗纹" Name="luowen" Path="luowen.mp4">
+          </Cartoon>
+          <Cartoon ShowName="1+1罗纹走针轨迹" Name="luowenzouzhen" Path="luowenzouzhen.mp4">
+          </Cartoon>
+          <Cartoon ShowName="满针罗纹空气层" Name="manzhenluowen" Path="manzhenluowen.mp4">
+          </Cartoon>
+          <Cartoon ShowName="瑞士点纹组织" Name="ruishidianwen" Path="ruishidianwen.mp4">
+          </Cartoon>
+        </AnimationList>
+        <TranningList>
+          <Part ShowName="组装调试" Name="zuzhuangtiaoshi" Path="" NameC="ShuangMianJi"  NameZ="ShuangMianJi" >
+          </Part>
+        </TranningList>
+      </Equipment>
+      <Equipment Name="mianmaoji">
+        <EquipmentList>
+          <Part ShowName="导纱器" Name="ZZdaoshaqi" ID="0" Type="0" Path="_Part/ZZ_MMJdaoshaqi" isHaveChild="N" Dis="0.3" Min="0.1" Max="0.5">
+          </Part>
+          <Part ShowName="针盘三角座" Name="ZZzhenpansanjiaozuo" ID="0" Type="0" Path="_Part/ZZ_MMJzhenpansanjiaozuo" isHaveChild="N" Dis="0.3" Min="0.1" Max="0.5">
+          </Part>
+          <Part ShowName="针盘三角" Name="ZZzhenpansanjiao" ID="0" Type="0" Path="_Part/ZZ_MMJzhenpansanjiao" isHaveChild="N" Dis="0.3" Min="0.1" Max="0.5">
+          </Part>
+          <Part ShowName="舌针" Name="ZZshezhen" ID="0" Type="0" Path="_Part/ZZ_MMJshezhen" isHaveChild="N" Dis="0.3" Min="0.1" Max="0.5">
+          </Part>
+          <Part ShowName="针筒三角座" Name="ZZzhentongsanjiaozuo" ID="0" Type="0" Path="_Part/ZZ_MMJzhentongsanjiaozuo" isHaveChild="N" Dis="0.3" Min="0.1" Max="0.5">
+          </Part>
+          <Part ShowName="针筒三角" Name="ZZzhentongsanjiao" ID="0" Type="0" Path="_Part/ZZ_MMJzhentongsanjiao" isHaveChild="N" Dis="0.3" Min="0.1" Max="0.5">
+          </Part>
+        </EquipmentList>
+        <AnimationList>
+          <Cartoon ShowName="棉毛机" Name="mianmaoji" Path="mianmaoji.mp4">
+          </Cartoon>
+          <Cartoon ShowName="双罗纹组织" Name="shuangluowen" Path="shuangluowen.mp4">
+          </Cartoon>
+          <Cartoon ShowName="双罗纹走针轨迹" Name="mianmaozuzhizouzhen" Path="mianmaozuzhizouzhen.mp4">
+          </Cartoon>
+          <Cartoon ShowName="双罗纹空气层组织" Name="luomazuzhi" Path="luomazuzhi.mp4">
+          </Cartoon>
+          <Cartoon ShowName="空气层走针轨迹" Name="kongqicengzouzhen" Path="kongqicengzouzhen.mp4">
+          </Cartoon>
+          <Cartoon ShowName="变化双罗纹空气层" Name="shuangluowenkongqi" Path="shuangluowenkongqi.mp4">
+          </Cartoon>
+          <Cartoon ShowName="八锁组织" Name="basuozuzhi" Path="basuozuzhi.mp4">
+          </Cartoon>
+          <Cartoon ShowName="涤盖棉走针轨迹" Name="tiaogaimianzouzhen" Path="tiaogaimianzouzhen.mp4">
+          </Cartoon>
+        </AnimationList>
+        <TranningList>
+          <Part ShowName="编织机构" Name="MMJJB" Path="Temp/MMJJB"  NameC="Check_C"  NameZ="Check_MMJJB_z" >
+          </Part>
+        </TranningList>
+      </Equipment>
+      <Equipment Name="qitazhiwuzuzhi">
+        <AnimationList>
+          <Cartoon ShowName="移圈组织(绞花)" Name="yiquanzuzhijiaohua" Path="yiquanzuzhijiaohua.mp4">
+          </Cartoon>
+          <Cartoon ShowName="移圈组织(挑花)" Name="yiquanzuzhitiaohua" Path="yiquanzuzhitiaohua.mp4">
+          </Cartoon>
+          <Cartoon ShowName="菠萝组织" Name="boluozuzhi" Path="boluozuzhi.mp4">
+          </Cartoon>
+          <Cartoon ShowName="毛圈组织线圈结构" Name="maoquanzuzhixianquan" Path="maoquanzuzhixianquan.mp4">
+          </Cartoon>
+          <Cartoon ShowName="长毛绒组织" Name="changmaorongzuzhi" Path="changmaorongzuzhi.mp4">
+          </Cartoon>
+          <Cartoon ShowName="绕经组织" Name="raojingzuzhi" Path="raojingzuzhi.mp4">
+          </Cartoon>
+        </AnimationList>
+      </Equipment>
+    </ProductLine>
+  </WorkShop>
+
+
+  <WorkShop Name="Spin">
+    <ProductLine Name="FangSha">
+      <Equipment Name="WangFuZhuaMianJi">
+        <EquipmentList>
+          <Part ShowName="抓棉器" Name="zhuamianqi" ID="0" Type="0" Path="_Part/FS_zhuamianqi" isHaveChild="Y" Dis="3" Min="2.5" Max="4">
+            <chlid ShowName="抓棉罗拉" Name="zhuamianluola" ID="0" Type="0" Path="_jyc_Part/FS_zhuamianluola_jyc" Dis="1" Min="0.5" Max="2">
+            </chlid>
+            <chlid ShowName="检测罗拉" Name="jianceluola" ID="0" Type="0" Path="_jyc_Part/FS_jianceluola_jyc" Dis="1" Min="0.5" Max="2">
+            </chlid>
+            <chlid ShowName="肋条" Name="leitiao" ID="0" Type="0" Path="_jyc_Part/FS_leitiao_jyc" Dis="1" Min="0.5" Max="2">
+            </chlid>
+          </Part>
+          <Part ShowName="机体" Name="jiti" ID="0" Type="0" Path="_Part/FS_jiti" isHaveChild="Y" Dis="3" Min="2.5" Max="4">
+            <chlid ShowName="塔身" Name="tashen" ID="0" Type="0" Path="_jyc_Part/FS_tashen_jyc" Dis="1.5" Min="1" Max="2">
+            </chlid>
+            <chlid ShowName="塔座" Name="tazuo" ID="0" Type="0" Path="_jyc_Part/FS_tazuo_jyc" Dis="1.5" Min="1" Max="2">
+            </chlid>
+            <chlid ShowName="轨道" Name="guidao" ID="0" Type="0" Path="_jyc_Part/FS_guidao_jyc" Dis="3" Min="2.5" Max="4">
+            </chlid>
+            <chlid ShowName="吸棉槽" Name="ximiancao" ID="0" Type="0" Path="_jyc_Part/FS_ximiancao_jyc" Dis="3" Min="2.5" Max="4">
+            </chlid>
+          </Part>
+          <Part ShowName="电器控制柜" Name="dianqikongzhigui" ID="0" Type="0" Path="_Part/FS_dianqikongzhigui" isHaveChild="N" Dis="1" Min="0.5" Max="1.5">
+          </Part>
+        </EquipmentList>
+        <AnimationList>
+          <Cartoon ShowName="抓棉工艺" Name="zhuamiangongyi" Path="zhuamiangongyi.mp4">
+          </Cartoon>
+          <Cartoon ShowName="间歇下降距离" Name="jianxiexiajiangjuli" Path="jianxiexiajiangjuli.mp4">
+          </Cartoon>
+          <Cartoon ShowName="往复抓棉速度" Name="wangfuzhuamiansudu" Path="wangfuzhuamiansudu.mp4">
+          </Cartoon>
+          <Cartoon ShowName="影响产量因素" Name="yingxiangchanliangyinsu" Path="yingxiangchanliangyinsu.mp4">
+          </Cartoon>
+          <Cartoon ShowName="抓棉流程" Name="zhuamianliucheng" Path="zhuamianliucheng.mp4">
+          </Cartoon>
+        </AnimationList>
+      </Equipment>
+
+      <Equipment Name="DuoCangHunMianJi">
+        <EquipmentList>
+          <Part ShowName="喂入风机" Name="weirufengji" ID="0" Type="0" Path="_Part/FS_weirufengji" isHaveChild="N" Dis="1" Min="0.5" Max="1.5">
+          </Part>
+          <Part ShowName="输入管道" Name="shuruguandao" ID="0" Type="0" Path="_Part/FS_shuruguandao" isHaveChild="N" Dis="2" Min="1.5" Max="2.5">
+          </Part>
+          <Part ShowName="水平帘" Name="shuipinglian" ID="0" Type="0" Path="_Part/FS_shuipinglian" isHaveChild="N" Dis="2" Min="1.5" Max="2.5">
+          </Part>
+          <Part ShowName="角钉帘" Name="jiaodinglian" ID="0" Type="0" Path="_Part/FS_jiaodinglian" isHaveChild="N" Dis="1.5" Min="1" Max="2">
+          </Part>
+          <Part ShowName="剥棉罗拉" Name="bomianluola" ID="0" Type="0" Path="_Part/FS_bomianluola" isHaveChild="N" Dis="1" Min="0.5" Max="2">
+          </Part>
+          <Part ShowName="均棉罗拉" Name="junmianluola" ID="0" Type="0" Path="_Part/FS_junmianluola" isHaveChild="N" Dis="1" Min="0.5" Max="2">
+          </Part>
+          <Part ShowName="输出风机" Name="shuchufengji" ID="0" Type="0" Path="_Part/FS_shuchufengji" isHaveChild="N" Dis="1" Min="0.5" Max="1.5">
+          </Part>
+          <Part ShowName="输出管道" Name="shuchuguandao" ID="0" Type="0" Path="_Part/FS_shuchuguandao" isHaveChild="N" Dis="1.5" Min="1" Max="2">
+          </Part>
+        </EquipmentList>
+        <AnimationList>
+          <Cartoon ShowName="混棉流程" Name="hunmianliucheng" Path="hunmianliucheng.mp4">
+          </Cartoon>
+        </AnimationList>
+      </Equipment>
+
+      <Equipment Name="JingKaiMianJi">
+        <EquipmentList>
+          <Part ShowName="储棉箱" Name="chumianxiang" ID="0" Type="0" Path="_Part/FS_chumianxiang" isHaveChild="N" Dis="2" Min="1.5" Max="3">
+          </Part>
+          <Part ShowName="调节板" Name="tiaojieban" ID="0" Type="0" Path="_Part/FS_tiaojieban" isHaveChild="N" Dis="2" Min="1.5" Max="3">
+          </Part>
+          <Part ShowName="上给棉罗拉" Name="shangjimianluola" ID="0" Type="0" Path="_Part/FS_shangjimianluola" isHaveChild="N" Dis="2" Min="1.5" Max="3">
+          </Part>
+          <Part ShowName="下给棉罗拉" Name="xiajimianluola" ID="0" Type="0" Path="_Part/FS_xiajimianluola" isHaveChild="N" Dis="2" Min="1.5" Max="3">
+          </Part>
+          <Part ShowName="梳棉打手" Name="shumiandashou" ID="0" Type="0" Path="_Part/FS_shumiandashou" isHaveChild="N" Dis="2" Min="1.5" Max="3">
+          </Part>
+          <Part ShowName="尘棒" Name="chenbang" ID="0" Type="0" Path="_Part/FS_chenbang" isHaveChild="N" Dis="2" Min="1.5" Max="3">
+          </Part>
+        </EquipmentList>
+        <AnimationList>
+          <Cartoon ShowName="尘棒间隔距" Name="chenbangjiangeju" Path="chenbangjiangeju.mp4">
+          </Cartoon>
+          <Cartoon ShowName="打手尘棒间隔距" Name="dashouchenbanggeju" Path="dashouchenbanggeju.mp4">
+          </Cartoon>
+          <Cartoon ShowName="打手速度" Name="dashousudu" Path="dashousudu.mp4">
+          </Cartoon>
+          <Cartoon ShowName="给棉罗拉转速" Name="jimianluolazhuansu" Path="jimianluolazhuansu.mp4">
+          </Cartoon>
+          <Cartoon ShowName="开棉流程" Name="kaimianliucheng" Path="kaimianliucheng.mp4">
+          </Cartoon>
+        </AnimationList>
+      </Equipment>
+
+
+      <Equipment ShowName="立式纤维分离器" Name="LiShiXianWeiFenLiQi">
+        <EquipmentList>
+          <Part ShowName ="立式纤维分离器" Name="lishixianweifenliqi" ID="0" Type="0" Path="_Part/FS_lishixianweifenliqi" isHaveChild="N" Dis="1.5" Min="1" Max="2">
+          </Part>
+        </EquipmentList>
+      </Equipment>
+      <Equipment Name="HuoXingJinShuTanChuQi">
+        <EquipmentList>
+          <Part ShowName="火星金属探除器" Name="huoxingjinshutanchuqi" ID="0" Type="0" Path="_Part/FS_huoxingjinshutanchuqi" isHaveChild="N" Dis="1" Min="0.8" Max="1.5">
+          </Part>
+        </EquipmentList>
+      </Equipment>
+
+
+      <Equipment Name="ShuMianJi">
+        <EquipmentList>
+          <Part ShowName="喂棉箱" Name="weimianxiang" ID="0" Type="0" Path="_Part/FS_weimianxiang" isHaveChild="Y" Dis="2" Min="1.5" Max="3">
+            <chlid ShowName="喂棉罗拉" Name="weimianluola" ID="0" Type="0" Path="_Part/FS_weimianluola" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+            <chlid ShowName="剥棉罗拉" Name="WMXbomianluola" ID="0" Type="0" Path="_Part/FS_WMXbomianluola" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+          </Part>
+          <Part ShowName="给棉刺辊部分" Name="jimiancigun" ID="0" Type="0" Path="_Part/FS_jimiancigun" isHaveChild="Y"  Dis="2" Min="1.5" Max="3">
+            <chlid ShowName="给棉斜板" Name="jimianxieban" ID="0" Type="0" Path="_Part/FS_jimianxieban" Dis="1" Min="0.8" Max="1.5">
+            </chlid>
+            <chlid ShowName="给棉板" Name="jimianban" ID="0" Type="0" Path="_Part/FS_jimianban" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+            <chlid ShowName="给棉罗拉" Name="jimianluola" ID="0" Type="0" Path="_Part/FS_jimianluola" Dis="1" Min="0.8" Max="1.5">
+            </chlid>
+            <chlid ShowName="刺辊" Name="cigun" ID="0" Type="0" Path="_Part/FS_cigun" Dis="1" Min="0.8" Max="1.5">
+            </chlid>
+            <chlid ShowName="除尘刀" Name="chuchendao" ID="0" Type="0" Path="_Part/FS_chuchendao" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+          </Part>
+          <Part ShowName="锡林盖板道夫部分" Name="xilingaibandaofu" ID="0" Type="0" Path="_Part/FS_xilingaibandaofu" isHaveChild="Y"  Dis="2" Min="1.5" Max="3">
+            <chlid ShowName="锡林" Name="xilin" ID="0" Type="0" Path="_Part/FS_xilin" Dis="1.5" Min="0.8" Max="2">
+            </chlid>
+            <chlid ShowName="盖板" Name="gaiban" ID="0" Type="0" Path="_Part/FS_gaiban" Dis="1.3" Min="0.8" Max="2">
+            </chlid>
+            <chlid ShowName="前固定盖板" Name="qiangudinggaiban" ID="0" Type="0" Path="_Part/FS_qiangudinggaiban" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+            <chlid ShowName="后固定盖板" Name="hougudinggaiban" ID="0" Type="0" Path="_Part/FS_hougudinggaiban" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+            <chlid ShowName="道夫" Name="daofu" ID="0" Type="0" Path="_Part/FS_daofu" Dis="1.5" Min="0.8" Max="2">
+            </chlid>
+            <chlid ShowName="大漏底" Name="daloudi" ID="0" Type="0" Path="_Part/FS_daloudi" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+          </Part>
+          <Part ShowName="剥棉成条成圈部分" Name="bomianchengtiaochengquan" ID="0" Type="0" Path="_Part/FS_bomianchengtiaochengquan" isHaveChild="Y"  Dis="2" Min="1.5" Max="3">
+            <chlid ShowName="清洁辊" Name="qingjiegun" ID="0" Type="0" Path="_Part/FS_qingjiegun" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+            <chlid ShowName="三罗拉剥棉装置" Name="sanluolabomianzhuangzhi" ID="0" Type="0" Path="_Part/FS_sanluolabomianzhuangzhi" Dis="1.3" Min="0.8" Max="1.5">
+            </chlid>
+            <chlid ShowName="皮圈导棉装置" Name="piquandaomianzhuangzhi" ID="0" Type="0" Path="_Part/FS_piquandaomianzhuangzhi" Dis="1.3" Min="0.8" Max="2">
+            </chlid>
+            <chlid ShowName="上大压辊" Name="shangdayagun" ID="0" Type="0" Path="_Part/FS_shangdayagun" Dis="1.3" Min="0.8" Max="1.5">
+            </chlid>
+            <chlid ShowName="下大压辊" Name="xiadayagun" ID="0" Type="0" Path="_Part/FS_xiadayagun" Dis="1.3" Min="0.8" Max="1.5">
+            </chlid>
+          </Part>
+        </EquipmentList>
+        <AnimationList>
+          <Cartoon ShowName="针齿剥取作用" Name="boquzuoyong" Path="boquzuoyong.mp4">
+          </Cartoon>
+          <Cartoon ShowName="刺辊除杂" Name="cigunchuza" Path="cigunchuza.mp4">
+          </Cartoon>
+          <Cartoon ShowName="针齿分梳作用" Name="fenshuzuoyong" Path="fenshuzuoyong.mp4">
+          </Cartoon>
+          <Cartoon ShowName="梳棉流程" Name="shumianliucheng" Path="shumianliucheng.mp4">
+          </Cartoon>
+          <Cartoon ShowName="针齿提升作用" Name="tishengzuoyong" Path="tishengzuoyong.mp4">
+          </Cartoon>
+        </AnimationList>
+      </Equipment>
+
+
+      <Equipment Name="BingTiaoJi1">
+        <EquipmentList>
+          <Part ShowName="喂入机构" Name="BTJ1weirujigou" ID="0" Type="0" Path="_Part/FS_BTJ1weirujigou" isHaveChild="Y" Dis="3" Min="2" Max="4">
+            <chlid ShowName="喂入棉条筒" Name="BTJ1weirumiantiaotong" ID="0" Type="0" Path="_Part/FS_BTJ1weirumiantiaotong" Dis="1.3" Min="0.8" Max="2">
+            </chlid>
+            <chlid ShowName="导条罗拉" Name="BTJ1daotiaoluola" ID="0" Type="0" Path="_Part/FS_BTJ1daotiaoluola" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+            <chlid ShowName="给棉罗拉" Name="BTJ1jimianluola" ID="0" Type="0" Path="_Part/FS_BTJ1jimianluola" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+          </Part>
+          <Part ShowName="牵伸机构" Name="BTJ1qianshenjigou" ID="0" Type="0" Path="_Part/FS_BTJ1qianshenjigou" isHaveChild="Y" Dis="3" Min="2" Max="4">
+            <chlid ShowName="罗拉" Name="BTJ1QSJGluola" ID="0" Type="0" Path="_Part/FS_BTJ1QSJGluola" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+            <chlid ShowName="皮辊" Name="BTJ1QSJGpigun" ID="0" Type="0" Path="_Part/FS_BTJ1QSJGpigun" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+            <chlid ShowName="压力棒" Name="BTJ1QSJGyalibang" ID="0" Type="0" Path="_Part/FS_BTJ1QSJGyalibang" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+            <chlid ShowName="集束器" Name="BTJ1QSJGjishuqi" ID="0" Type="0" Path="_Part/FS_BTJ1QSJGjishuqi" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+            <chlid ShowName="弹簧加压摇架" Name="BTJ1QSJGtanhuangjiayayaojia" ID="0" Type="0" Path="_Part/FS_BTJ1QSJGtanhuangjiayayaojia" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+          </Part>
+          <Part ShowName="成条机构" Name="BTJ1chengtiaojigou" ID="0" Type="0" Path="_Part/FS_BTJ1chengtiaojigou" isHaveChild="Y" Dis="3" Min="2" Max="4">
+            <chlid ShowName="紧压罗拉" Name="BTJ1jinyaluola" ID="0" Type="0" Path="_Part/FS_BTJ1jinyaluola" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+            <chlid ShowName="圈条器" Name="BTJ1quantiaoqi" ID="0" Type="0" Path="_Part/FS_BTJ1quantiaoqi" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+          </Part>
+        </EquipmentList>
+      </Equipment>
+
+      <Equipment Name="BingTiaoJi2">
+        <EquipmentList>
+          <Part ShowName="喂入机构" Name="BTJ2weirujigou" ID="0" Type="0" Path="_Part/FS_BTJ2weirujigou" isHaveChild="Y" Dis="3" Min="2" Max="4">
+            <chlid ShowName="喂入棉条筒" Name="BTJ2weirumiantiaotong" ID="0" Type="0" Path="_Part/FS_BTJ1weirumiantiaotong" Dis="1.3" Min="0.8" Max="2">
+            </chlid>
+            <chlid ShowName="导条罗拉" Name="BTJ2daotiaoluola" ID="0" Type="0" Path="_Part/FS_BTJ1daotiaoluola" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+            <chlid ShowName="给棉罗拉" Name="BTJ2jimianluola" ID="0" Type="0" Path="_Part/FS_BTJ1jimianluola" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+          </Part>
+          <Part ShowName="凹凸罗拉" Name="aotuluola" ID="0" Type="0" Path="_Part/FS_aotuluola" isHaveChild="N" Dis="1" Min="0.5" Max="1.5">
+          </Part>
+          <Part ShowName="牵伸机构" Name="BTJ2qianshenjigou" ID="0" Type="0" Path="_Part/FS_BTJ2qianshenjigou" isHaveChild="Y" Dis="3" Min="2" Max="4">
+            <chlid ShowName="罗拉" Name="BTJ2QSJGluola" ID="0" Type="0" Path="_Part/FS_BTJ1QSJGluola" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+            <chlid ShowName="皮辊" Name="BTJ2QSJGpigun" ID="0" Type="0" Path="_Part/FS_BTJ1QSJGpigun" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+            <chlid ShowName="压力棒" Name="BTJ2QSJGyalibang" ID="0" Type="0" Path="_Part/FS_BTJ1QSJGyalibang" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+            <chlid ShowName="集束器" Name="BTJ2QSJGjishuqi" ID="0" Type="0" Path="_Part/FS_BTJ1QSJGjishuqi" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+            <chlid ShowName="弹簧加压摇架" Name="BTJ2QSJGtanhuangjiayayaojia" ID="0" Type="0" Path="_Part/FS_BTJ1QSJGtanhuangjiayayaojia" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+          </Part>
+          <Part ShowName="成条机构" Name="BTJ2chengtiaojigou" ID="0" Type="0" Path="_Part/FS_BTJ2chengtiaojigou" isHaveChild="Y" Dis="3" Min="2" Max="4">
+            <chlid ShowName="紧压罗拉" Name="BTJ2jinyaluola" ID="0" Type="0" Path="_Part/FS_BTJ1jinyaluola" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+            <chlid ShowName="圈条器" Name="BTJ2quantiaoqi" ID="0" Type="0" Path="_Part/FS_BTJ1quantiaoqi" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+          </Part>
+        </EquipmentList>
+        <AnimationList>
+          <Cartoon ShowName="并合作用" Name="binghezuoyong" Path="binghezuoyong.mp4">
+          </Cartoon>
+          <Cartoon ShowName="并条机流程" Name="bingtiaojiliucheng" Path="bingtiaojiliucheng.mp4">
+          </Cartoon>
+          <Cartoon ShowName="牵伸形式" Name="BTqianshenxingshi" Path="BTqianshenxingshi.mp4">
+          </Cartoon>
+          <Cartoon ShowName="浮游区" Name="fuyouqu" Path="fuyouqu.mp4">
+          </Cartoon>
+          <Cartoon ShowName="罗拉牵伸原理" Name="luolaqianshenyuanli" Path="luolaqianshenyuanli.mp4">
+          </Cartoon>
+          <Cartoon ShowName="摩擦力界" Name="mocalijie" Path="mocalijie.mp4">
+          </Cartoon>
+          <Cartoon ShowName="圈条密度" Name="quantiaomidu" Path="quantiaomidu.mp4">
+          </Cartoon>
+          <Cartoon ShowName="移距偏差" Name="yijupiancha" Path="yijupiancha.mp4">
+          </Cartoon>
+          <Cartoon ShowName="自动换筒" Name="zidonghuantong" Path="zidonghuantong.mp4">
+          </Cartoon>
+          <Cartoon ShowName="自调匀整" Name="zitiaoyunzheng" Path="zitiaoyunzheng.mp4">
+          </Cartoon>
+        </AnimationList>
+      </Equipment>
+
+      <Equipment Name="CuShaJi">
+        <EquipmentList>
+          <Part ShowName="喂入机构" Name="CSJweirujigou" ID="0" Type="0" Path="_Part/FS_CSJweirujigou" isHaveChild="Y" Dis="3" Min="2" Max="4">
+            <chlid ShowName="分条器" Name="CSJfentiaoqi" ID="0" Type="0" Path="_Part/FS_CSJfentiaoqi" Dis="0.8" Min="0.4" Max="1.2">
+            </chlid>
+            <chlid ShowName="导条辊" Name="CSJdaotiaogun" ID="0" Type="0" Path="_Part/FS_CSJdaotiaogun" Dis="2" Min="1.5" Max="2.5">
+            </chlid>
+            <chlid ShowName="导条喇叭" Name="CSJdaotiaolaba" ID="0" Type="0" Path="_Part/FS_CSJdaotiaolaba" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+          </Part>
+          <Part ShowName="牵伸机构" Name="CSJqianshenjigou" ID="0" Type="0" Path="_Part/FS_CSJqianshenjigou" isHaveChild="Y" Dis="3" Min="2" Max="4">
+            <chlid ShowName="罗拉" Name="CSJQSJluola" ID="0" Type="0" Path="_Part/FS_CSJQSJluola" Dis="0.5" Min="0.2" Max="1">
+            </chlid>
+            <chlid ShowName="皮辊" Name="CSJQSJpigun" ID="0" Type="0" Path="_Part/FS_CSJQSJpigun" Dis="0.5" Min="0.2" Max="1">
+            </chlid>
+            <chlid ShowName="上销" Name="CSJQSJshangxiao" ID="0" Type="0" Path="_Part/FS_CSJQSJshangxiao" Dis="0.5" Min="0.2" Max="1">
+            </chlid>
+            <chlid ShowName="下销" Name="CSJQSJxiaxiao" ID="0" Type="0" Path="_Part/FS_CSJQSJxiaxiao" Dis="0.5" Min="0.2" Max="1">
+            </chlid>
+            <chlid ShowName="集合器" Name="CSJQSJjiheqi" ID="0" Type="0" Path="_Part/FS_CSJQSJjiheqi" Dis="0.5" Min="0.2" Max="1">
+            </chlid>
+            <chlid ShowName="弹簧加压摇架" Name="CSJQSJtanhuangjiaya" ID="0" Type="0" Path="_Part/FS_CSJQSJtanhuangjiaya" Dis="0.5" Min="0.2" Max="1">
+            </chlid>
+          </Part>
+          <Part ShowName="加捻机构" Name="CSJjianianjigou" ID="0" Type="0" Path="_Part/FS_CSJjianianjigou" isHaveChild="Y" Dis="3" Min="2" Max="4">
+            <chlid ShowName="加捻器" Name="CSJjianianqi" ID="0" Type="0" Path="_Part/FS_CSJjianianqi" Dis="4" Min="3" Max="5">
+            </chlid>
+            <chlid ShowName="上龙筋" Name="CSJshanglongjin" ID="0" Type="0" Path="_Part/FS_CSJshanglongjin" Dis="4" Min="3" Max="5">
+            </chlid>
+            <chlid ShowName="下龙筋" Name="CSJxialongjin" ID="0" Type="0" Path="_Part/FS_CSJxialongjin" Dis="4" Min="3" Max="5">
+            </chlid>
+            <chlid ShowName="锭翼与压掌" Name="CSJdingyiyazhang" ID="0" Type="0" Path="_Part/FS_CSJdingyiyazhang" Dis="4" Min="3" Max="5">
+            </chlid>
+            <chlid ShowName="筒管" Name="CSJtongguan" ID="0" Type="0" Path="_Part/FS_CSJtongguan" Dis="4" Min="3" Max="5">
+            </chlid>
+          </Part>
+        </EquipmentList>
+        <AnimationList>
+          <Cartoon ShowName="电机传动" Name="dianjichuandong" Path="dianjichuandong.mp4">
+          </Cartoon>
+          <Cartoon ShowName="卷绕过程" Name="juanraoguocheng" Path="juanraoguocheng.mp4">
+          </Cartoon>
+          <Cartoon ShowName="卷绕条件" Name="juanraotiaojian" Path="juanraotiaojian.mp4">
+          </Cartoon>
+          <Cartoon ShowName="牵伸形式" Name="qianshenxingshi" Path="qianshenxingshi.mp4">
+          </Cartoon>
+          <Cartoon ShowName="自动落纱" Name="zidongluosha" Path="CSzidongluosha.mp4">
+          </Cartoon>
+        </AnimationList>
+      </Equipment>
+
+      <Equipment Name="XiShaJi">
+        <EquipmentList>
+          <Part ShowName="喂入机构" Name="XSJweirujigou" ID="0" Type="0" Path="_Part/FS_XSJweirujigou" isHaveChild="Y" Dis="3" Min="2" Max="4">
+            <chlid ShowName="吊锭" Name="XSJdiaoding" ID="0" Type="0" Path="_Part/FS_XSJdiaoding" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+            <chlid ShowName="导纱杆" Name="XSJdaoshagan" ID="0" Type="0" Path="_Part/FS_XSJdaoshagan" Dis="2" Min="1.5" Max="2.5">
+            </chlid>
+            <chlid ShowName="导条喇叭" Name="XSJdaotiaolaba" ID="0" Type="0" Path="_Part/FS_XSJdaotiaolaba" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+          </Part>
+          <Part ShowName="牵伸机构" Name="XSJqianshenjigou" ID="0" Type="0" Path="_Part/FS_XSJqianshenjigou" isHaveChild="Y" Dis="3" Min="2" Max="4">
+            <chlid ShowName="牵伸罗拉" Name="XSJqianshenluola" ID="0" Type="0" Path="_Part/FS_XSJqianshenluola" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+            <chlid ShowName="皮圈" Name="XSJpiquan" ID="0" Type="0" Path="_Part/FS_XSJpiquan" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+            <chlid ShowName="上销" Name="XSJshangxiao" ID="0" Type="0" Path="_Part/FS_XSJshangxiao" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+            <chlid ShowName="下销" Name="XSJxiaxiao" ID="0" Type="0" Path="_Part/FS_XSJxiaxiao" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+            <chlid ShowName="皮辊" Name="XSJpigun" ID="0" Type="0" Path="_Part/FS_XSJpigun" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+            <chlid ShowName="网格圈" Name="XSJwanggequan" ID="0" Type="0" Path="_Part/FS_XSJwanggequan" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+            <chlid ShowName="异型管" Name="XSJyixingguan" ID="0" Type="0" Path="_Part/FS_XSJyixingguan" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+            <chlid ShowName="摇架" Name="XSJyaojia" ID="0" Type="0" Path="_Part/FS_XSJyaojia" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+          </Part>
+          <Part ShowName="加捻卷绕机构" Name="XSJjianianjigou" ID="0" Type="0" Path="_Part/FS_XSJjianianjigou" isHaveChild="Y" Dis="3" Min="2" Max="4">
+            <chlid ShowName="锭子" Name="XSJdingzi" ID="0" Type="0" Path="_Part/FS_XSJdingzi" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+            <chlid ShowName="隔纱板" Name="XSJgeshaban" ID="0" Type="0" Path="_Part/FS_XSJgeshaban" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+            <chlid ShowName="钢领" Name="XSJgangling" ID="0" Type="0" Path="_Part/FS_XSJgangling" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+            <chlid ShowName="钢丝圈" Name="XSJgangsiquan" ID="0" Type="0" Path="_Part/FS_XSJgangsiquan" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+            <chlid ShowName="细纱管" Name="XSJxishaguan" ID="0" Type="0" Path="_Part/FS_XSJxishaguan" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+            <chlid ShowName="导纱钩" Name="XSJdaoshagou" ID="0" Type="0" Path="_Part/FS_XSJdaoshagou" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+            <chlid ShowName="气圈控制环" Name="XSJqiquankongzhihuan" ID="0" Type="0" Path="_Part/FS_XSJqiquankongzhihuan" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+          </Part>
+        </EquipmentList>
+        <AnimationList>
+          <Cartoon ShowName="细纱流程" Name="xishaliucheng" Path="xishaliucheng.mp4">
+          </Cartoon>
+          <Cartoon ShowName="紧密纺原理" Name="jinmifang" Path="jinmifang.mp4">
+          </Cartoon>
+          <Cartoon ShowName="卷绕" Name="juanrao" Path="juanrao.mp4">
+          </Cartoon>
+          <Cartoon ShowName="赛络纺原理" Name="sailuofang" Path="sailuofang.mp4">
+          </Cartoon>
+          <Cartoon ShowName="赛络菲尔纺" Name="sailuofeierfang" Path="sailuofeierfang.mp4">
+          </Cartoon>
+          <Cartoon ShowName="加捻" Name="jianian" Path="jianian.mp4">
+          </Cartoon>
+          <Cartoon ShowName="竹节纱" Name="zhujiesha" Path="zhujiesha.mp4">
+          </Cartoon>
+          <Cartoon ShowName="自动落纱" Name="zidongluosha" Path="zidongluosha.mp4">
+          </Cartoon>
+        </AnimationList>
+      </Equipment>
+
+
+      <Equipment Name="LuoTongJi">
+        <EquipmentList>
+          <Part ShowName="退绕部分" Name="LTJtuiraobufen" ID="0" Type="0" Path="_Part/FS_LTJtuiraobufen" isHaveChild="Y" productInfo="======LTJtuiraobufen=========" Dis="4" Min="3" Max="5" >
+            <chlid Name="LTJqiquankongzhiqi" ID="0" Type="0" Path="_jyc_Part/FS_LTJqiquankongzhiqi_jyc" Dis="1" Min="0.5" Max="1.5" productInfo="======LTJqiquankongzhiqi=========" ShowName="跟踪式气圈控制器"> 
+            </chlid>
+            <chlid Name="LTJguanshatuopan" ID="0" Type="0" Path="_jyc_Part/FS_LTJguanshatuopan_jyc" Dis="1" Min="0.5" Max="1.5" productInfo="======LTJguanshatuopan=========" ShowName="管纱托盘">
+            </chlid>
+            <chlid Name="LTJfangniudaosiqi" ID="0" Type="0" Path="_jyc_Part/FS_LTJyuqingshaqi_jyc" Dis="1" Min="0.5" Max="1.5" productInfo="======LTJfangniudaosiqi=========" ShowName="防扭导丝器">
+            </chlid>
+          </Part>
+          <Part ShowName="中间部分" Name="LTJzhongjianbufen" ID="0" Type="0" Path="_Part/FS_LTJzhongjianbufen" isHaveChild="Y" productInfo="======LTJzhongjianbufen=========" Dis="4" Min="3" Max="5">
+            <chlid ShowName="张力控制器" Name="LTJzhanglizhuangzhi" ID="0" Type="0" Path="_jyc_Part/FS_LTJzhanglizhuangzhi_jyc" Dis="1" Min="0.5" Max="1.5" productInfo="======LTJzhanglizhuangzhi=========">
+            </chlid>
+            <chlid ShowName="捻接器" Name="LTJnianjieqi" ID="0" Type="0" Path="_jyc_Part/FS_LTJnianjieqi_jyc" Dis="1" Min="0.5" Max="1.5" productInfo="======LTJnianjieqi=========">
+            </chlid>
+            <chlid ShowName="上吸嘴" Name="LTJshangxizui" ID="0" Type="0" Path="_jyc_Part/FS_LTJshangxizui_jyc" Dis="1" Min="0.5" Max="1.5" productInfo="======LTJshangxizui=========">
+            </chlid>
+            <chlid ShowName="下吸嘴" Name="LTJxiaxizui" ID="0" Type="0" Path="_jyc_Part/FS_LTJxiaxizui_jyc" Dis="1" Min="0.5" Max="1.5" productInfo="======LTJxiaxizui=========">
+            </chlid>
+            <chlid ShowName="电子清纱器" Name="LTJdianziqingshaqi" ID="0" Type="0" Path="_jyc_Part/FS_LTJdianziqingshaqi_jyc" Dis="1" Min="0.5" Max="1.5" productInfo="======LTJdianziqingshaqi=========">
+            </chlid>
+          </Part>
+          <Part ShowName="卷绕成形部分" Name="LTJjuanraochengxingbufen" ID="0" Type="0" Path="_Part/FS_LTJjuanraochengxingbufen" isHaveChild="Y" productInfo="======LTJjuanraochengxingbufen=========" Dis="4" Min="3" Max="5">
+            <chlid ShowName="槽筒" Name="LTJcaotong" ID="0" Type="0" Path="_jyc_Part/FS_LTJcaotong_jyc" Dis="1" Min="0.5" Max="1.5" productInfo="======LTJcaotong=========">
+            </chlid>
+            <chlid ShowName="摇架" Name="LTJyaojia" ID="0" Type="0" Path="_jyc_Part/FS_LTJyaojia_jyc" Dis="1" Min="0.5" Max="1.5" productInfo="======LTJyaojia=========">
+            </chlid>
+          </Part>
+        </EquipmentList>
+        <AnimationList>
+          <Cartoon ShowName="电子清纱" Name="dianziqingsha" Path="dianziqingsha.mp4">
+          </Cartoon>
+          <Cartoon ShowName="空气捻接器" Name="kongqinianjieqi" Path="kongqinianjieqi.mp4">
+          </Cartoon>
+          <Cartoon ShowName="自动落筒" Name="zidongluotong" Path="zidongluotong.mp4">
+          </Cartoon>
+        </AnimationList>
+      </Equipment>
+    </ProductLine>
+  </WorkShop>
+
+
+  <WorkShop Name="Woven">
+    <ProductLine Name="JiZhi">
+      <Equipment Name="fenpizhengjingji">
+        <EquipmentList>
+          <Part ShowName="筒子架" Name="FPZJJtongzijia" ID="0" Type="0" Path="_Part/JZ_FPZJJtongzijia" isHaveChild="Y" Dis="2" Min="1" Max="3" productInfo="======FPZJJtongzijia=========">
+            <chlid ShowName="锭座" Name="FPZJJdingzuo" ID="0" Type="0" Path="_jyc_Part/JZ_FPZJJdingzuo_jyc" Dis="0.5" Min="0.1" Max="0.9" productInfo="======FPZJJdingzuo=========">
+            </chlid>
+            <chlid ShowName="夹纱装置" Name="FPZJJzhanglizhuangzhi" ID="0" Type="0" Path="_jyc_Part/JZ_FPZJJzhanglizhuangzhi_jyc" Dis="0.6" Min="0.2" Max="1" productInfo="======FPZJJzhanglizhuangzhi=========">
+            </chlid>
+          </Part>
+          <Part ShowName="车头卷绕" Name="FPZJJchetoujuanrao" ID="0" Type="0" Path="_Part/JZ_FPZJJchetoujuanrao" isHaveChild="Y" Dis="1.2" Min="0.6" Max="1.8" productInfo="======FPZJJchetoujuanrao=========">
+            <chlid ShowName="整经轴" Name="FPZJJzhengzhizhou" ID="0" Type="0" Path="_jyc_Part/JZ_FPZJJzhenzhizhou_jyc" Dis="0.8" Min="0.4" Max="1.2" productInfo="======FPZJJzhengzhizhou=========">
+            </chlid>
+            <chlid ShowName="加压辊" Name="FPZJJjiayagun" ID="0" Type="0" Path="_jyc_Part/JZ_FPZJJjiayagun_jyc" Dis="0.6" Min="0.3" Max="0.9" productInfo="======FPZJJjiayagun=========">
+            </chlid>
+            <chlid ShowName="伸缩筘" Name="FPZJJshensuokou" ID="0" Type="0" Path="_jyc_Part/JZ_FPZJJshensuokou_jyc" Dis="1" Min="0.5" Max="1.5" productInfo="======FPZJJshensuokou=========">
+            </chlid>
+            <chlid ShowName="导纱辊" Name="FTZJJGTdaoshagun" ID="0" Type="0" Path="_jyc_Part/JZ_FPZJJCTdaoshagun_jyc" Dis="1" Min="0.5" Max="1.5" productInfo="======FTZJJGTdaoshagun=========">
+            </chlid>
+            <chlid ShowName="平纱棍" Name="JSJpingshagun" ID="0" Type="0" Path="_jyc_Part/JZ_JSJpingshagun_jyc" Dis="1" Min="0.5" Max="1.5" productInfo="======JSJpingshagun=========">
+            </chlid>
+          </Part>
+        </EquipmentList>
+
+        <AnimationList>
+          <Cartoon ShowName="分批整经工作原理" Name="fenpizhengjingyuanli" Path="fenpizhengjingyuanli.mp4">
+          </Cartoon>
+        </AnimationList>
+
+      </Equipment>
+      <Equipment Name="fentiaozhengjingji">
+        <EquipmentList>
+          <Part ShowName="筒子架" Name="FTZJJtongzijia" ID="0" Type="0" Path="_Part/JZ_FTZJJtongzijia" isHaveChild="Y" Dis="2.4" Min="1.6" Max="3.2" productInfo="======FTZJJtongzijia=========">
+            <chlid ShowName="锭座" Name="FTZJJdingzuo" ID="0" Type="0" Path="_jyc_Part/JZ_FTZJJdingzuo_jyc" Dis="0.5" Min="0.1" Max="0.9" productInfo="======FTZJJdingzuo=========">
+            </chlid>
+            <chlid ShowName="导纱装置" Name="FTZJJdaoshazhuangzhi" ID="0" Type="0" Path="_jyc_Part/JZ_FTZJJdaoshazhuangzhi_jyc" Dis="0.5" Min="0.2" Max="0.8" productInfo="======FTZJJdaoshazhuangzhi=========">
+            </chlid>
+            <chlid ShowName="张力装置" Name="FTZJJzhanglizhuangzhi" ID="0" Type="0" Path="_jyc_Part/JZ_FTZJJzhanglizhuangzhi_jyc" Dis="0.6" Min="0.2" Max="1" productInfo="======FTZJJzhanglizhuangzhi=========">
+            </chlid>
+          </Part>
+          <Part ShowName="分铰装置" Name="FTZJJfenjiaozhuangzhi" ID="0" Type="0" Path="_Part/JZ_FTZJJfenjiaozhuangzhi" isHaveChild="N" Dis="3" Min="1.5" Max="4.5" productInfo="======FTZJJfenjiaozhuangzhi=========">
+          </Part>
+          <Part ShowName="滚筒卷绕" Name="FTZJJguntongjuanrao" ID="0" Type="0" Path="_Part/JZ_FTZJJguntongjuanrao" isHaveChild="Y" Dis="2" Min="1" Max="3" productInfo="======FTZJJguntongjuanrao=========">
+            <chlid ShowName="滚筒" Name="FTZJJguntong" ID="0" Type="0" Path="_jyc_Part/JZ_FTZJJguntong_jyc" Dis="1.2" Min="0.8" Max="1.6" productInfo="======FTZJJguntong=========">
+            </chlid>
+            <chlid ShowName="导纱辊" Name="FTZJJGTdaoshagun" ID="0" Type="0" Path="_jyc_Part/JZ_FTZJJGTdaoshagun_jyc" Dis="0.4" Min="0.2" Max="0.6" productInfo="======FTZJJGTdaoshagun=========">
+            </chlid>
+            <chlid ShowName="定幅筘" Name="FTZJJdingfukou" ID="0" Type="0" Path="_jyc_Part/JZ_FTZJJdingfukou_jyc" Dis="0.4" Min="0.2" Max="0.6" productInfo="======FTZJJdingfukou=========">
+            </chlid>
+            <chlid ShowName="整经控制台" Name="FTZJJzhengjingkongzhitai" ID="0" Type="0" Path="_jyc_Part/JZ_FTZJJzhengjingkongzhitai_jyc" Dis="0.4" Min="0.2" Max="0.6" productInfo="======FTZJJzhengjingkongzhitai=========">
+            </chlid>
+          </Part>
+          <Part ShowName="车头卷绕" Name="FTZJJchetoujuanrao" ID="0" Type="0" Path="_Part/JZ_FTZJJchetoujuanrao" isHaveChild="Y" Dis="2" Min="1" Max="3" productInfo="======FTZJJchetoujuanrao=========">
+            <chlid ShowName="导纱辊" Name="FTZJJCTdaoshagun" ID="0" Type="0" Path="_jyc_Part/JZ_FTZJJCTdaoshagun_jyc" Dis="2" Min="1" Max="3" productInfo="======FTZJJCTdaoshagun=========">
+            </chlid>
+            <chlid ShowName="织轴" Name="FTZJJzhizhou" ID="0" Type="0" Path="_jyc_Part/JZ_FTZJJzhizhou_jyc" Dis="2" Min="1" Max="3" productInfo="======FTZJJzhizhou=========">
+            </chlid>
+          </Part>
+        </EquipmentList>
+        <AnimationList>
+          <Cartoon ShowName="分条整经工作原理" Name="fentiaozhengjingyuanli" Path="fentiaozhengjingyuanli.mp4">
+          </Cartoon>
+        </AnimationList>
+      </Equipment>
+
+      <Equipment Name="jiangshaji">
+        <EquipmentList>
+          <Part ShowName="经轴退绕装置" Name="JSJjingzhoutuiraozhuangzhi" ID="0" Type="0" Path="_Part/JZ_JSJjingzhoutuiraozhuangzhi" isHaveChild="N" Dis="1.5" Min="1" Max="2" productInfo="======FTZJJzhizhou=========">
+          </Part>
+          <Part ShowName="上浆装置" Name="JSJshangjiangzhuangzhi" ID="0" Type="0" Path="_Part/JZ_JSJshangjiangzhuangzhi" isHaveChild="Y" Dis="1" Min="0.5" Max="1.5" productInfo="======FTZJJzhizhou=========">
+            <chlid ShowName="引纱辊" Name="JSJyinshagun" ID="0" Type="0" Path="_jyc_Part/JZ_JSJyinshagun_jyc" Dis="1" Min="0.5" Max="1.5" productInfo="======FTZJJzhizhou=========">
+            </chlid>
+            <chlid ShowName="浸没辊" Name="JSJjinmogun" ID="0" Type="0" Path="_jyc_Part/JZ_JSJjinmogun_jyc" Dis="1" Min="0.5" Max="1.5" productInfo="======FTZJJzhizhou=========">
+            </chlid>
+            <chlid ShowName="上浆辊" Name="JSJshangjianggun" ID="0" Type="0" Path="_jyc_Part/JZ_JSJshangjianggun_jyc" Dis="1" Min="0.5" Max="1.5" productInfo="======FTZJJzhizhou=========">
+            </chlid>
+            <chlid ShowName="压浆辊" Name="JSJyajianggun" ID="0" Type="0" Path="_jyc_Part/JZ_JSJyajianggun_jyc" Dis="1" Min="0.5" Max="1.5" productInfo="======FTZJJzhizhou=========">
+            </chlid>
+            <chlid ShowName="浆槽" Name="JSJjiangcao" ID="0" Type="0" Path="_jyc_Part/JZ_JSJjiangcao_jyc" Dis="1" Min="0.5" Max="1.5" productInfo="======FTZJJzhizhou=========">
+            </chlid>
+          </Part>
+          <Part ShowName="烘房" Name="JZ_JSJhongfang" ID="0" Type="0" Path="_Part/JZ_JSJhongfang" isHaveChild="Y" Dis="2" Min="1.5" Max="2.5" productInfo="======FTZJJzhizhou=========">
+            <chlid ShowName="导纱辊" Name="FTZJJGTdaoshagun" ID="0" Type="0" Path="_jyc_Part/JZ_JSJHFdaoshagun_jyc" Dis="2" Min="1.5" Max="2.5" productInfo="======FTZJJzhizhou=========">
+            </chlid>
+            <chlid ShowName="烘筒" Name="JSJhongtong" ID="0" Type="0" Path="_jyc_Part/JZ_JSJhongtong_jyc" Dis="2" Min="1.5" Max="2.5" productInfo="======FTZJJzhizhou=========">
+            </chlid>
+          </Part>
+          <Part ShowName="分纱棒" Name="JSJfenshabang" ID="0" Type="0" Path="_Part/JZ_JSJfenshabang" isHaveChild="N" Dis="1.2" Min="0.6" Max="1.8" productInfo="======FTZJJzhizhou=========">
+          </Part>
+          <Part ShowName="车头卷绕" Name="FTZJJchetoujuanrao" ID="0" Type="0" Path="_Part/JZ_JSJchetoujuanrao" isHaveChild="Y" Dis="1.5" Min="1" Max="2" productInfo="======FTZJJzhizhou=========">
+            <chlid ShowName="加压辊" Name="FPZJJjiayagun" ID="0" Type="0" Path="_jyc_Part/JZ_JSJjiayagun_jyc" Dis="1" Min="0.5" Max="1.5" productInfo="======FTZJJzhizhou=========">
+            </chlid>
+            <chlid ShowName="平纱辊" Name="JSJpingshagun" ID="0" Type="0" Path="_jyc_Part/JZ_JSJpingshagun_jyc" Dis="1" Min="0.5" Max="1.5" productInfo="======FTZJJzhizhou=========">
+            </chlid>
+            <chlid ShowName="导纱辊" Name="FTZJJGTdaoshagun" ID="0" Type="0" Path="_jyc_Part/JZ_JSJCTdaoshagun_jyc" Dis="1" Min="0.5" Max="1.5" productInfo="======FTZJJzhizhou=========">
+            </chlid>
+            <chlid ShowName="伸缩筘" Name="FPZJJshensuokou" ID="0" Type="0" Path="_jyc_Part/JZ_JSJshensuokou_jyc" Dis="1" Min="0.5" Max="1.5" productInfo="======FTZJJzhizhou=========">
+            </chlid>
+            <chlid ShowName="织轴" Name="FTZJJzhizhou" ID="0" Type="0" Path="_jyc_Part/JZ_JSJzhizhou_jyc" Dis="1" Min="0.5" Max="1.5" productInfo="======FTZJJzhizhou=========">
+            </chlid>
+          </Part>
+        </EquipmentList>
+
+        <AnimationList>
+          <Cartoon ShowName="双浸双压" Name="shuangjinshuangya" Path="shuangjinshuangya.mp4">
+          </Cartoon>
+          <Cartoon ShowName="烘筒烘干" Name="hongtonghonggan" Path="hongtonghonggan.mp4">
+          </Cartoon>
+          <Cartoon ShowName="经轴排花经轴排列" Name="jingjiangpaihua" Path="jingjiangpaihua.mp4">
+          </Cartoon>
+        </AnimationList>
+      </Equipment>
+      <Equipment Name="danshazhengjingji">
+        <EquipmentList>
+          <Part ShowName="筒子架" Name="FPZJJtongzijia" ID="0" Type="0" Path="_Part/JZ_DSZJJtongzijia" isHaveChild="Y" Dis="0.3" Min="0.15" Max="0.5">
+            <chlid ShowName="储纬器" Name="chuweiqi" ID="0" Type="0" Path="_Part/JZ_DSZJJchuweiqi" Dis="0.3" Min="0.15" Max="0.5">
+            </chlid>
+            <chlid ShowName="断头自停装置" Name="duantouzitingzhuangzhi" ID="0" Type="0" Path="_Part/JZ_DSZJJduantouzitingzhuangzhi" Dis="0.3" Min="0.15" Max="0.5">
+            </chlid>
+            <chlid ShowName="张力控制器" Name="LTJzhanglizhuangzhi" ID="0" Type="0" Path="_Part/JZ_DSZJJzhanglizhuangzhi" Dis="0.3" Min="0.15" Max="0.5">
+            </chlid>
+          </Part>
+          <Part ShowName="选色装置" Name="xuansezhuangzhi" ID="0" Type="0" Path="_Part/JZ_DSZJJxuansezhuangzhi" isHaveChild="N" Dis="2" Min="1.5" Max="2.5">
+          </Part>
+          <Part ShowName="卷绕装置" Name="juanraozhuangzhi" ID="0" Type="0" Path="_Part/JZ_DSZJJjuanraozhuangzhi" isHaveChild="N" Dis="2" Min="1.5" Max="2.5">
+          </Part>
+          <Part ShowName="分铰装置" Name="FTZJJfenjiaozhuangzhi" ID="0" Type="0" Path="_Part/JZ_DSZJJfenjiaozhuangzhi" isHaveChild="N" Dis="2" Min="1.5" Max="2.5">
+          </Part>
+          <Part ShowName="倒轴装置" Name="daozhouzhuangzhi" ID="0" Type="0" Path="_Part/JZ_DSZJJdaozhouzhuangzhi" isHaveChild="N" Dis="2" Min="1.5" Max="2.5">
+          </Part>
+        </EquipmentList>
+      </Equipment>
+
+      <Equipment Name="danshajiangshaji">
+        <EquipmentList>
+          <Part ShowName="筒子托架" Name="tongzituojia" ID="0" Type="0" Path="_Part/JZ_DSJSJtongzituojia" isHaveChild="N" Dis="1.5" Min="1" Max="2">
+          </Part>
+          <Part ShowName="张力装置" Name="zhanglizhuangzhi" ID="0" Type="0" Path="_Part/JZ_DSJSJzhanglizhuangzhi" isHaveChild="N" Dis="1.5" Min="1" Max="2">
+          </Part>
+          <Part ShowName="断纱自停装置" Name="duanshazitingzhuangzhi" ID="0" Type="0" Path="_Part/JZ_DSJSJduanshazitingzhuangzhi" isHaveChild="N" Dis="1.5" Min="1" Max="2">
+          </Part>
+          <Part ShowName="上浆机构" Name="shangjiangjigou" ID="0" Type="0" Path="_Part/JZ_DSJSJshangjiangjigou" isHaveChild="Y" Dis="1.5" Min="1" Max="2">
+            <chlid ShowName="导纱轮" Name="daoshalun" ID="0" Type="0" Path="_Part/JZ_DSJSJdaoshalun" Dis="0.5" Min="0.2" Max="1">
+            </chlid>
+            <chlid ShowName="浆槽" Name="JSJjiangcao" ID="0" Type="0" Path="_Part/JZ_DSJSJjiangcao"  Dis="0.5" Min="0.2" Max="1">
+            </chlid>
+            <chlid ShowName="浸浆片" Name="jinjiangpian" ID="0" Type="0" Path="_Part/JZ_DSJSJjinjiangpian"  Dis="0.5" Min="0.2" Max="1">
+            </chlid>
+            <chlid ShowName="横移片" Name="hengyipian" ID="0" Type="0" Path="_Part/JZ_DSJSJhengyipian"  Dis="0.5" Min="0.2" Max="1">
+            </chlid>
+            <chlid ShowName="锥形上浆辊" Name="zhuixingshangjianggun" ID="0" Type="0" Path="_Part/JZ_DSJSJzhuixingshangjianggun"  Dis="0.5" Min="0.2" Max="1">
+            </chlid>
+            <chlid ShowName="锥形压浆辊" Name="zhuixingyajianggun" ID="0" Type="0" Path="_Part/JZ_DSJSJzhuixingyajianggun"  Dis="0.5" Min="0.2" Max="1">
+            </chlid>
+            <chlid ShowName="刮纱片" Name="guashapian" ID="0" Type="0" Path="_Part/JZ_DSJSJguashapian"  Dis="0.5" Min="0.2" Max="1">
+            </chlid>
+          </Part>
+
+          <Part ShowName="烘干机构" Name="hongganjigou" ID="0" Type="0" Path="_Part/JZ_DSJSJhongganjigou" isHaveChild="Y" Dis="1.5" Min="1" Max="2">
+            <chlid ShowName="加热机构" Name="jiarejigou" ID="0" Type="0" Path="_Part/JZ_DSJSJjiarejigou" Dis="1" Min="0.5" Max="1.5">
+            </chlid>
+            <chlid ShowName="转笼式储纱机构" Name="zhuanlongshichushajigou" ID="0" Type="0" Path="_Part/JZ_DSJSJzhuanlongshichushajigou" Dis="2" Min="1" Max="3">
+            </chlid>
+          </Part>
+
+          <Part ShowName="卷绕机构" Name="juanraojigou" ID="0" Type="0" Path="_Part/JZ_DSJSJjuanraojigou" isHaveChild="Y" Dis="1.5" Min="1" Max="2">
+            <chlid ShowName="断纱自停装置" Name="DSJSJduanshazitingzhuangzhi" ID="0" Type="0" Path="_Part/JZ_DSJSJJRJGduanshazitingzhuangzhi" Dis="0.6" Min="0.3" Max="1">
+            </chlid>
+            <chlid ShowName="导纱轮" Name="daoshalun" ID="0" Type="0" Path="_Part/JZ_DSJSJdaoshalun_JR" Dis="0.6" Min="0.3" Max="1">
+            </chlid>
+            <chlid ShowName="槽筒" Name="LTJcaotong" ID="0" Type="0" Path="_Part/JZ_DSJSJcaotong" Dis="0.6" Min="0.3" Max="1">
+            </chlid>
+            <chlid ShowName="筒管" Name="CSJtongguan" ID="0" Type="0" Path="_Part/JZ_DSJSJtongguan" Dis="0.6" Min="0.3" Max="1">
+            </chlid>
+          </Part>
+        </EquipmentList>
+      </Equipment>
+
+      <Equipment Name="jianganzhiji">
+        <EquipmentList>
+          <Part ShowName="机械多臂开口机构" Name="jixieduobikaikoujigou" ID="0" Type="0" Path="_Part/JZ_JGZJjixieduobikaikoujigou" isHaveChild="Y" Dis="4" Min="3" Max="5" productInfo="======LTJtuiraobufen=========">
+            <chlid ShowName="提综系统" Name="tizongxitong" ID="0" Type="0" Path="_jyc_Part/JZ_JGZJtizongxitong_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="纹板系统" Name="wenbanxitong" ID="0" Type="0" Path="_jyc_Part/JZ_JGZJwenbanxitong_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="信息采集系统" Name="xinxicaijixitong" ID="0" Type="0" Path="_jyc_Part/JZ_JGZJxinxicaijixitong" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+          </Part>
+          <Part ShowName="连杆齿轮传剑机构" Name="lianganchilunchuanjianjigou" ID="0" Type="0" Path="_Part/JZ_JGZJlianganchilunchuanjianjigou" isHaveChild="Y" Dis="4" Min="3" Max="5" productInfo="======LTJtuiraobufen=========">
+            <chlid ShowName="传剑轮" Name="chuanjianlun" ID="0" Type="0" Path="_jyc_Part/JZ_JGZJchuanjianlun_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="导向块和护带管" Name="daoxiangkuaihehudaiguan" ID="0" Type="0" Path="_jyc_Part/JZ_JGZJdaoxiangkuaihehudaiguan_jyc" Dis="4" Min="3" Max="5" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="传剑箱" Name="chuanjianxiang" ID="0" Type="0" Path="_jyc_Part/JZ_JGZJchuanjianxiang_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="引纬连杆" Name="yinweiliangan" ID="0" Type="0" Path="_jyc_Part/JZ_JGZJyinweiliangan_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="扇形轮" Name="shanxinglun" ID="0" Type="0" Path="_jyc_Part/JZ_JGZJshanxinglun_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="剑头剑带" Name="jiantoujiandai" ID="0" Type="0" Path="_jyc_Part/JZ_JGZJjiantoujiandai_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+          </Part>
+          <Part ShowName="蜗轮蜗杆卷取机构" Name="wolunwoganjuanqujigou" ID="0" Type="0" Path="_Part/JZ_JGZJwolunwoganjuanqujigou" isHaveChild="Y" Dis="4" Min="3" Max="5" productInfo="======LTJtuiraobufen=========">
+            <chlid ShowName="推杆" Name="tuigan" ID="0" Type="0" Path="_jyc_Part/JZ_JGZJtuigan_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="棘爪" Name="jizhua" ID="0" Type="0" Path="_jyc_Part/JZ_JGZJjizhua_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="变速棘轮" Name="bianhuanjilun" ID="0" Type="0" Path="_jyc_Part/JZ_JGZJbianhuanjilun_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="蜗杆" Name="wogan" ID="0" Type="0" Path="_jyc_Part/JZ_JGZJWLwogan_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="蜗轮" Name="wolun" ID="0" Type="0" Path="_jyc_Part/JZ_JGZJWLwolun_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="卷取辊" Name="juanqugun" ID="0" Type="0" Path="_jyc_Part/JZ_JGZJjuanqugun_jyc" Dis="2.5" Min="1.5" Max="3.5" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="手轮" Name="shoulun" ID="0" Type="0" Path="_jyc_Part/JZ_JGZJshoulun_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+          </Part>
+          <Part ShowName="四连杆打纬机构" Name="siliangandaweijigou" ID="0" Type="0" Path="_Part/JZ_JGZJsiliangandaweijigou" isHaveChild="Y" Dis="4" Min="3" Max="5" productInfo="======LTJtuiraobufen=========">
+            <chlid ShowName="筘座脚" Name="kouzuojiao" ID="0" Type="0" Path="_jyc_Part/JZ_JGZJkouzuojiao_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="墙板" Name="qiangban" ID="0" Type="0" Path="_jyc_Part/JZ_JGZJqiangban_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="连杆" Name="liangan" ID="0" Type="0" Path="_jyc_Part/JZ_JGZJliangan_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="曲柄" Name="qubing" ID="0" Type="0" Path="_jyc_Part/JZ_JGZJqubing_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+          </Part>
+          <Part ShowName="外侧送经机构" Name="waicesongjingjigou" ID="0" Type="0" Path="_Part/JZ_JGZJwaicesongjingjigou" isHaveChild="Y" Dis="4" Min="3" Max="5" productInfo="======LTJtuiraobufen=========">
+            <chlid ShowName="摆杆" Name="baigan" ID="0" Type="0" Path="_jyc_Part/JZ_JGZJbaigan_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="拉杆" Name="lagan" ID="0" Type="0" Path="_jyc_Part/JZ_JGZJlagan_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="调节杆" Name="tiaojiegan" ID="0" Type="0" Path="_jyc_Part/JZ_JGZJtiaojiegan_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="凸轮" Name="tulun" ID="0" Type="0" Path="_jyc_Part/JZ_JGZJtulun_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="蜗杆" Name="wogan" ID="0" Type="0" Path="_jyc_Part/JZ_JGZJWCwogan_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="蜗轮" Name="wolun" ID="0" Type="0" Path="_jyc_Part/JZ_JGZJWCwolun_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+          </Part>
+        </EquipmentList>
+        <AnimationList>
+          <Cartoon ShowName="机械多臂开口原理" Name="jixieduobikaikou" Path="jixieduobikaikou.mp4">
+          </Cartoon>
+          <Cartoon ShowName="四连杆打纬原理" Name="siliangandawei" Path="siliangandawei.mp4">
+          </Cartoon>
+          <Cartoon ShowName="传剑引纬原理" Name="chuanjianyinwei" Path="chuanjianyinwei.mp4">
+          </Cartoon>
+          <Cartoon ShowName="蜗轮蜗杆卷取机构" Name="wolunwogan" Path="wolunwogan.mp4">
+          </Cartoon>
+          <Cartoon ShowName="定豉储纬工作原理" Name="dingchichuweiqi" Path="dingchichuweiqi.mp4">
+          </Cartoon>
+          <Cartoon ShowName="3上1下左斜纹" Name="zuoxiewen" Path="zuoxiewen.mp4">
+          </Cartoon>
+          <Cartoon ShowName="经起花" Name="jingqihua" Path="jingqihua.mp4">
+          </Cartoon>
+          <Cartoon ShowName="平纹组织" Name="pingwenzuzhi" Path="pingwenzuzhi.mp4">
+          </Cartoon>
+          <Cartoon ShowName="透孔组织" Name="toukongzuzhi" Path="toukongzuzhi.mp4">
+          </Cartoon>
+          <Cartoon ShowName="凸条组织" Name="tutiaozuzhi" Path="tutiaozuzhi.mp4">
+          </Cartoon>
+          <Cartoon ShowName="网目组织" Name="wangmuzuzhi" Path="wangmuzuzhi.mp4">
+          </Cartoon>
+          <Cartoon ShowName="纬起花" Name="weiqihua" Path="weiqihua.mp4">
+          </Cartoon>
+        </AnimationList>
+        <TranningList>
+          <Part ShowName="多臂龙头机构" Name="duobilongtou" Path="Temp/jianganzhiji"  NameC="Check_C"  NameZ="Check_DBLT_z" >
+          </Part>
+          <Part ShowName="传剑机构" Name="chuanjianjigou" Path="Temp/chuanjian" NameC="Check_C"  NameZ="Check_CJJG_z" >
+          </Part>
+        </TranningList>
+      </Equipment>
+      <Equipment Name="penqizhiji">
+        <EquipmentList>
+          <Part ShowName="消极凸轮开口机构" Name="xiaojitulunkaikoujigou" ID="0" Type="0" Path="_Part/JZ_PQZJxiaojitulunkaikoujigou" isHaveChild="Y" Dis="4" Min="3" Max="5" productInfo="======LTJtuiraobufen=========">
+            <chlid ShowName="吊综臂" Name="diaozonggan" ID="0" Type="0" Path="_jyc_Part/JZ_PQZJdiaozonggan_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="钢丝绳" Name="gangsisheng" ID="0" Type="0" Path="_jyc_Part/JZ_PQZJgangsisheng_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="回综弹簧" Name="huizongtanhuang" ID="0" Type="0" Path="_jyc_Part/JZ_PQZJhuizongtanhuang_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="提综杆" Name="tizonggan" ID="0" Type="0" Path="_jyc_Part/JZ_PQZJtizonggan_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="提综杆铁鞋" Name="tizonggantiexie" ID="0" Type="0" Path="_jyc_Part/JZ_PQZJtizonggantiexie_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="凸轮" Name="tulun" ID="0" Type="0" Path="_jyc_Part/JZ_PQZJtulun_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="转子" Name="zhuanzi" ID="0" Type="0" Path="_jyc_Part/JZ_PQZJKKzhuanzi_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="综框" Name="zongkuang" ID="0" Type="0" Path="_jyc_Part/JZ_PQZJzongkuang_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+          </Part>
+
+          <Part ShowName="喷气引纬机构" Name="penqiyinweijigou" ID="0" Type="0" Path="_Part/JZ_PQZJpenqiyinweijigou" isHaveChild="Y" Dis="4" Min="3" Max="5" productInfo="======LTJtuiraobufen=========">
+            <chlid ShowName="储纬器" Name="chuweiqi" ID="0" Type="0" Path="_jyc_Part/JZ_PQZJchuweiqi_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="导纱眼" Name="daoshayan" ID="0" Type="0" Path="_jyc_Part/JZ_PQZJdaoshayan_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="喷嘴" Name="penzui" ID="0" Type="0" Path="_jyc_Part/JZ_PQZJpenzui_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="接力喷嘴" Name="jielipenzui" ID="0" Type="0" Path="_jyc_Part/JZ_PQZJjielipenzui_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="探纬器" Name="tanweiqi" ID="0" Type="0" Path="_jyc_Part/JZ_PQZJtanweiqi_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="筒子架" Name="tongzijia" ID="0" Type="0" Path="_jyc_Part/JZ_PQZJtongzijia_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="纬纱剪刀" Name="weishajiandao" ID="0" Type="0" Path="_jyc_Part/JZ_PQZJweishajiandao_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="张力片" Name="zhanglipian" ID="0" Type="0" Path="_jyc_Part/JZ_PQZJzhanglipian_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+          </Part>
+
+          <Part ShowName="打纬机构" Name="daweijigou" ID="0" Type="0" Path="_Part/JZ_PQZJdaweijigou" isHaveChild="Y" Dis="4" Min="3" Max="5" productInfo="======LTJtuiraobufen=========">
+            <chlid ShowName="转子" Name="zhuanzi" ID="0" Type="0" Path="_jyc_Part/JZ_PQZJDWzhuanzi_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="筘座" Name="kouzuo" ID="0" Type="0" Path="_jyc_Part/JZ_PQZJkouzuo_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="异形筘" Name="yixingkou" ID="0" Type="0" Path="_jyc_Part/JZ_PQZJyixingkou_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="摆臂" Name="baibi" ID="0" Type="0" Path="_jyc_Part/JZ_PQZJbaibi_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="共轭凸轮" Name="gongetulun" ID="0" Type="0" Path="_jyc_Part/JZ_PQZJgongetulun_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="主轴" Name="zhuzhou" ID="0" Type="0" Path="_jyc_Part/JZ_PQZJzhuzhou_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+          </Part>
+          <Part ShowName="电子卷取机构" Name="dianzijuanqujigou" ID="0" Type="0" Path="_Part/JZ_PQZJdianzijuanqujigou" isHaveChild="Y" Dis="4" Min="3" Max="5" productInfo="======LTJtuiraobufen=========">
+            <chlid ShowName="电机" Name="dianji" ID="0" Type="0" Path="_jyc_Part/JZ_PQZJJQdianji_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="卷布辊" Name="juanbugun" ID="0" Type="0" Path="_jyc_Part/JZ_PQZJjuanbugun_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="导杆" Name="daogan" ID="0" Type="0" Path="_jyc_Part/JZ_PQZJdaogan_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="布辊" Name="bugun" ID="0" Type="0" Path="_jyc_Part/JZ_PQZJbugun_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+          </Part>
+          <Part ShowName="电子送经机构" Name="dianzisongjingjigou" ID="0" Type="0" Path="_Part/JZ_PQZJdianzisongjingjigou" isHaveChild="Y" Dis="4" Min="3" Max="5" productInfo="======LTJtuiraobufen=========">
+            <chlid ShowName="后梁" Name="houliang" ID="0" Type="0" Path="_jyc_Part/JZ_PQZJhouliang_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="后梁摆杆" Name="houliangbaigan" ID="0" Type="0" Path="_jyc_Part/JZ_PQZJhouliangbaigan_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="拉杆" Name="lagan" ID="0" Type="0" Path="_jyc_Part/JZ_PQZJlagan_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="曲柄" Name="qubing" ID="0" Type="0" Path="_jyc_Part/JZ_PQZJqubing_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="应变片传感器" Name="yingbianpianchuanganqi" ID="0" Type="0" Path="_jyc_Part/JZ_PQZJyingbianpianchuanganqi_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="电机" Name="dianji" ID="0" Type="0" Path="_jyc_Part/JZ_PQZJSJdianji_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="蜗杆" Name="wogan" ID="0" Type="0" Path="_jyc_Part/JZ_PQZJwogan_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="蜗轮" Name="wolun" ID="0" Type="0" Path="_jyc_Part/JZ_PQZJwolun_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="织轴边齿轮" Name="zhizhoubianchilun" ID="0" Type="0" Path="_jyc_Part/JZ_PQZJzhizhoubianchilun_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="织轴" Name="FTZJJzhizhou" ID="0" Type="0" Path="_jyc_Part/JZ_PQZJzhizhou_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+          </Part>
+        </EquipmentList>
+
+        <AnimationList>
+          <Cartoon ShowName="喷气引纬" Name="penqiyinwei" Path="penqiyinwei.mp4">
+          </Cartoon>
+          <Cartoon ShowName="动豉储纬" Name="dongchichuwei" Path="dongchichuwei.mp4">
+          </Cartoon>
+          <Cartoon ShowName="共轭凸轮打纬" Name="gongetulundawei" Path="gongetulundawei.mp4">
+          </Cartoon>
+          <Cartoon ShowName="毛巾打纬原理" Name="maojindawei" Path="maojindawei.mp4">
+          </Cartoon>
+          <Cartoon ShowName="电子提花开口原理" Name="dianzitihuakaikou" Path="dianzitihuakaikou.mp4">
+          </Cartoon>
+          <Cartoon ShowName="片梭引纬" Name="piansuoyinwei" Path="piansuoyinwei.mp4">
+          </Cartoon>
+        </AnimationList>
+      </Equipment>
+
+      <Equipment Name="penshuizhiji">
+        <EquipmentList>
+          <Part ShowName="喷水引纬装置" Name="penshuiyinweijigou" ID="0" Type="0" Path="_Part/JZ_PSZJpenshuiyinweijigou" isHaveChild="Y" Dis="5" Min="4" Max="6" productInfo="======LTJtuiraobufen=========">
+            <chlid ShowName="定长储纬器" Name="dingchangchuweiqi" ID="0" Type="0" Path="_jyc_Part/JZ_PSZJdingchangchuweiqi_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="环状喷嘴" Name="huanzhuangpenzui" ID="0" Type="0" Path="_jyc_Part/JZ_PSZJhuanzhuangpenzui_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="夹纬器" Name="jiashaqi" ID="0" Type="0" Path="_jyc_Part/JZ_PSZJjiashaqi_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="喷射水泵" Name="pensheshuibeng" ID="0" Type="0" Path="_jyc_Part/JZ_PSZJpensheshuibeng_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="探纬器" Name="tanweiqi" ID="0" Type="0" Path="_jyc_Part/JZ_PSZJtanweiqi_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="稳压水箱" Name="wenyashuixiang" ID="0" Type="0" Path="_jyc_Part/JZ_PSZJwenyashuixiang_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="胸梁" Name="xiongliang" ID="0" Type="0" Path="_jyc_Part/JZ_PSZJxiongliang_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+            <chlid ShowName="引纬凸轮" Name="yinweitulun" ID="0" Type="0" Path="_jyc_Part/JZ_PSZJyinweitulun_jyc" Dis="2" Min="1" Max="3" productInfo="======LTJtuiraobufen=========">
+            </chlid>
+          </Part>
+        </EquipmentList>
+        <AnimationList>
+          <Cartoon ShowName="喷水引纬" Name="penshuiyinwei" Path="penshuiyinwei.mp4">
+          </Cartoon>
+        </AnimationList>
+      </Equipment>
+
+      <Equipment Name="datihuazhiji">
+        <AnimationList>
+          <Cartoon Name="dianzitihuakaikou" Path="dianzitihuakaikou.mp4">
+          </Cartoon>
+        </AnimationList>
+      </Equipment>
+    </ProductLine>
+  </WorkShop>
+</Content>

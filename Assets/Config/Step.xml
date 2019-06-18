@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content>
+  <Equ Name="duobilongtou">
+    <action Name="Chai">
+      <Step ID="0"  Info="将多臂机构的拉刀和拉钩松开">
+      </Step>
+      <Step ID="1"  Info="用呆扳手拆下前罩壳结合件螺丝及各油管的螺丝头">
+      </Step>
+      <Step ID="2"  Info="取下前罩壳结合件及油管">
+      </Step>
+      <Step ID="3"  Info="用呆扳手拆下左罩壳的外六角固定螺丝">
+      </Step>
+      <Step ID="4"  Info="用内六角扳手拆下左罩壳的内六角固定螺丝">
+      </Step>
+      <Step ID="5"  Info="用锤子轻轻敲击左罩壳，松动后用手取下">
+      </Step>
+      <Step ID="6"  Info="用手将纹纸传动轴取下">
+      </Step>
+      <Step ID="7"  Info="用扳手拆下涨紧轮的固定螺丝">
+      </Step>
+      <Step ID="8"  Info="用手将涨紧轮取下">
+      </Step>
+      <Step ID="9"  Info="用手将链条取下">
+      </Step>
+      <Step ID="10"  Info="用扳手拆下信号轮的固定螺丝">
+      </Step>
+      <Step ID="11"  Info="用手将信号轮取下">
+      </Step>
+      <Step ID="12"  Info="用扳手拆下右罩壳的外六角固定螺丝">
+      </Step>
+      <Step ID="13"  Info="用锤子轻轻敲击右罩壳，松动后用手取下">
+      </Step>
+      <Step ID="14"  Info="用内六角扳手拆下主伞齿轮的内六角固定螺丝">
+      </Step>
+      <Step ID="15"  Info="用手将主伞齿轮取下">
+      </Step>
+      <Step ID="16"  Info="用尖嘴钳将复位链条复位弹簧取下">
+      </Step>
+      <Step ID="17"  Info="用卡簧钳拆下拉刀轴两侧的外卡簧">
+      </Step>
+      <Step ID="18"  Info="用手将拉刀与摆臂取下">
+      </Step>
+      <Step ID="19"  Info="将定位杆放进定位孔">
+      </Step>
+      <Step ID="20"  Info="用内六角扳手拆下主凸轮的内六角固定螺丝">
+      </Step>
+      <Step ID="21"  Info="用手将主凸轮取下">
+      </Step>
+      <Step ID="22"  Info="用手将调节架摆杆取下">
+      </Step>
+      <Step ID="23"  Info="用内六角扳手拆下异形臂的内六角固定螺丝">
+      </Step>
+      <Step ID="24"  Info="用手将异形臂取下">
+      </Step>
+      <Step ID="25"  Info="用扳手拆下分度凸轮的固定螺丝">
+      </Step>
+      <Step ID="26"  Info="用手将分度凸轮取下">
+      </Step>
+      <Step ID="27"  Info="用手将橫针压板摆杆取下">
+      </Step>
+      <Step ID="28"  Info="用扳手拆下推针板的固定螺丝">
+      </Step>
+      <Step ID="29"  Info="用手将推针板取下">
+      </Step>
+      <Step ID="30"  Info="用手将竖针取下">
+      </Step>
+    </action>
+    
+    <!--DaiBanShou,         //呆扳手1
+      NeiLiuJiao,         //内六角扳手2
+      ChuiZi,             //锤子3
+      KaHuangQian,        //卡簧钳4
+      DingWeiGan,         //定位杆5
+      type: 0   拖拽部件
+      type：1   选择工具
+      -->
+    <action Name="Zhuang">
+      <Step ID="0"  type="0"  tool="" partNm ="拉刀和拉钩" Info="安装多臂机构的拉刀和拉钩" >
+      </Step>
+      <Step ID="1"  type="1"  tool="1" partNm ="前罩壳结合件螺丝及各油管的螺丝头" Info="用呆扳手安装前罩壳结合件螺丝及各油管的螺丝头">
+      </Step>
+      <Step ID="2"  type="0"  tool="" partNm ="前罩壳结合件及油管" Info="安装前罩壳结合件及油管">
+      </Step>
+      <Step ID="3"  type="1"  tool="1" partNm ="左罩壳的外六角固定螺丝"  Info="用呆扳手安装左罩壳的外六角固定螺丝">
+      </Step>
+      <Step ID="4"  type="1"  tool="2" partNm ="左罩壳的内六角固定螺丝" Info="用内六角扳手安装左罩壳的内六角固定螺丝">
+      </Step>
+      <Step ID="5"  type="0"  tool="" partNm ="左罩壳" Info="安装左罩壳">
+      </Step>
+      <Step ID="6"  type="0"  tool="" partNm ="纹纸传动轴" Info="安装纹纸传动轴">
+      </Step>
+      <Step ID="7"  type="1"  tool="1" partNm ="涨紧轮的固定螺丝" Info="用呆扳手安装涨紧轮的固定螺丝">
+      </Step>
+      <Step ID="8"  type="0"  tool="0" partNm ="涨紧轮" Info="安装涨紧轮">
+      </Step>
+      <Step ID="9"  type="0"  tool="0" partNm ="链条" Info="安装链条">
+      </Step>
+      <Step ID="10"  type="1"  tool="1" partNm ="信号轮的固定螺丝" Info="用呆扳手安装信号轮的固定螺丝">
+      </Step>
+      <Step ID="11"  type="0"  tool="0" partNm ="信号轮" Info="安装信号轮">
+      </Step>
+      <Step ID="12"  type="1"  tool="1" partNm ="右罩壳的外六角固定螺丝" Info="用呆扳手安装右罩壳的外六角固定螺丝">
+      </Step>
+      <Step ID="13"  type="0"  tool="0" partNm ="右罩壳" Info="安装右罩壳">
+      </Step>
+      <Step ID="14"  type="1"  tool="2" partNm ="主伞齿轮的内六角固定螺丝" Info="用内六角扳手安装主伞齿轮的内六角固定螺丝">
+      </Step>
+      <Step ID="15"  type="0"  tool="0" partNm ="主伞齿轮"  Info="安装主伞齿轮">
+      </Step>
+      <Step ID="16"  type="0"  tool="0" partNm ="复位链条复位弹簧" Info="安装复位链条复位弹簧">
+      </Step>
+      <Step ID="17"  type="0"  tool="0" partNm ="拉刀与摆臂" Info="安装拉刀与摆臂">
+      </Step>
+      <Step ID="18"  type="1"  tool="2" partNm ="主凸轮的内六角固定螺丝"  Info="用内六角扳手安装主凸轮的内六角固定螺丝">
+      </Step>
+      <Step ID="19"  type="1"  tool="5" partNm ="定位杆" Info="将定位杆放进定位孔">
+      </Step>
+      <Step ID="20"  type="0"  tool="0" partNm ="主凸轮" Info="安装主凸轮">
+      </Step>
+      <Step ID="21"  type="0"  tool="0" partNm ="调节架摆杆" Info="安装调节架摆杆">
+      </Step>
+      <Step ID="22"  type="1"  tool="2" partNm ="异形臂的内六角固定螺丝" Info="用内六角扳手安装异形臂的内六角固定螺丝">
+      </Step>
+      <Step ID="23"  type="0"  tool="0" partNm ="异形臂" Info="安装异形臂">
+      </Step>
+      <Step ID="24"  type="1"  tool="1" partNm ="分度凸轮的固定螺丝" Info="用呆扳手安装分度凸轮的固定螺丝">
+      </Step>
+      <Step ID="25"  type="0"  tool="0" partNm ="分度凸轮" Info="安装分度凸轮">
+      </Step>
+      <Step ID="26"  type="0"  tool="0" partNm ="橫针压板摆杆" Info="安装橫针压板摆杆">
+      </Step>
+      <Step ID="27"  type="1"  tool="1" partNm ="推针板的固定螺丝"  Info="用呆扳手安装推针板的固定螺丝">
+      </Step>
+      <Step ID="28"  type="0"  tool="0" partNm ="推针板" Info="安装推针板">
+      </Step>
+      <Step ID="29"  type="0"  tool="0" partNm ="竖针" Info="安装竖针">
+      </Step>
+    </action>
+  </Equ>
+
+
+  <Equ Name="chuanjianjigou">
+    <action Name="Chai">
+      <Step ID="0"  Info="将曲柄轴手轮转至75°左右">
+      </Step>
+      <Step ID="1"  Info="用内六角扳手拆下导向块的内六角固定螺丝">
+      </Step>
+      <Step ID="2"  Info="用手将导向块取下">
+      </Step>
+      <Step ID="3"  Info="用手将剑头剑带取下">
+      </Step>
+      <Step ID="4"  Info="用内六角扳手拆下护带管的内六角固定螺丝">
+      </Step>
+      <Step ID="5"  Info="用扳手拆下护带管的固定螺丝">
+      </Step>
+      <Step ID="6"  Info="用手将护带管取下">
+      </Step>
+      <Step ID="7"  Info="用内六角扳手拆下传剑轮的内六角固定螺丝">
+      </Step>
+      <Step ID="8"  Info="用手将传剑轮取下">
+      </Step>
+      <Step ID="9"  Info="用扳手拆下传剑箱的固定螺丝">
+      </Step>
+      <Step ID="10"  Info="用内六角扳手拆下传剑箱的内六角固定螺丝">
+      </Step>
+      <Step ID="11"  Info="用手将传剑箱取下">
+      </Step>
+      <Step ID="12"  Info="用内六角扳手拆下传剑箱支架的内六角固定螺丝">
+      </Step>
+      <Step ID="13"  Info="用手将传剑箱支架取下">
+      </Step>
+      <Step ID="14"  Info="用扳手拆下引纬连杆">
+      </Step>
+      <Step ID="15"  Info="用扳手拆下扇形轮支架的固定螺丝">
+      </Step>
+      <Step ID="16"  Info="用手将扇形轮取下">
+      </Step>
+    </action>
+    
+    <action Name="Zhuang">
+      <Step ID="0"  type="1"  tool="2" partNm ="导向块的内六角固定螺丝" Info="用内六角扳手安装导向块的内六角固定螺丝">
+      </Step>
+      <Step ID="1"  type="0"  tool="0" partNm ="导向块" Info="安装导向块">
+      </Step>
+      <Step ID="2"  type="0"  tool="0" partNm ="剑头剑带" Info="安装剑头剑带">
+      </Step>
+      <Step ID="3"  type="1"  tool="2" partNm ="护带管的内六角固定螺丝" Info="用内六角扳手安装护带管的内六角固定螺丝">
+      </Step>
+      <Step ID="4"  type="1"  tool="1" partNm ="护带管的固定螺丝" Info="用呆扳手安装护带管的内六角固定螺丝">
+      </Step>
+      <Step ID="5"  type="0"  tool="0" partNm ="护带管" Info="安装护带管">
+      </Step>
+      <Step ID="6"  type="1"  tool="2" partNm ="传剑轮的内六角固定螺丝" Info="用内六角扳手安装传剑轮的内六角固定螺丝">
+      </Step>
+      <Step ID="7"  type="0"  tool="0" partNm ="传剑轮" Info="安装传剑轮">
+      </Step>
+      <Step ID="8"  type="1"  tool="1" partNm ="传剑箱的固定螺丝" Info="用呆扳手安装传剑箱的固定螺丝">
+      </Step>
+      <Step ID="9"  type="1"  tool="2" partNm ="传剑箱的内六角固定螺丝" Info="用内六角扳手安装传剑箱的内六角固定螺丝">
+      </Step>
+      <Step ID="10"  type="0"  tool="0" partNm ="传剑箱" Info="安装传剑箱">
+      </Step>
+      <Step ID="11"  type="1"  tool="2" partNm ="传剑箱支架的内六角固定螺丝" Info="用内六角扳手安装传剑箱支架的内六角固定螺丝">
+      </Step>
+      <Step ID="12"  type="0"  tool="0" partNm ="传剑箱支架" Info="安装传剑箱支架">
+      </Step>
+      <Step ID="13"  type="0"  tool="0" partNm ="引纬连杆" Info="安装引纬连杆">
+      </Step>
+      <Step ID="14"  type="1"  tool="2" partNm ="扇形轮支架的固定螺丝" Info="用扳手安装扇形轮支架的固定螺丝">
+      </Step>
+      <Step ID="15"  type="0"  tool="0" partNm ="扇形轮" Info="安装扇形轮">
+      </Step>
+    </action>
+  </Equ>
+
+  <Equ Name="DMJJB">
+    <action Name="Chai">
+      <Step ID="0"  Info="将导纱器取下">
+      </Step>
+      <Step ID="1"  Info="将沉降片三角座取下">
+      </Step>
+      <Step ID="2"  Info="将沉降片三角取下">
+      </Step>
+      <Step ID="3"  Info="将沉降片取下">
+      </Step>
+      <Step ID="4"  Info="将沉降片圆环取下">
+      </Step>
+      <Step ID="5"  Info="将箍簧取下">
+      </Step>
+      <Step ID="6"  Info="将针三角座取下">
+      </Step>
+      <Step ID="7"  Info="将针三角取下">
+      </Step>
+      <Step ID="8"  Info="将舌针取下">
+      </Step>
+    </action>
+
+    <action Name="Zhuang">
+      <Step ID="0"  Info="安装导纱器">
+      </Step>
+      <Step ID="1"  Info="安装沉降片三角座">
+      </Step>
+      <Step ID="2"  Info="安装沉降片三角">
+      </Step>
+      <Step ID="3"  Info="安装沉降片">
+      </Step>
+      <Step ID="4"  Info="安装沉降片圆环">
+      </Step>
+      <Step ID="5"  Info="安装箍簧">
+      </Step>
+      <Step ID="6"  Info="安装针三角座">
+      </Step>
+      <Step ID="7"  Info="安装针三角">
+      </Step>
+      <Step ID="8"  Info="安装舌针">
+      </Step>
+    </action>
+  </Equ>
+
+  <Equ Name="MMJJB">
+    <action Name="Chai">
+      <Step ID="0"  Info="将导纱器取下">
+      </Step>
+      <Step ID="1"  Info="将针盘三角座取下">
+      </Step>
+      <Step ID="2"  Info="将针盘三角取下">
+      </Step>
+      <Step ID="3"  Info="将针盘舌针取下">
+      </Step>
+      <Step ID="4"  Info="将针筒三角座取下">
+      </Step>
+      <Step ID="5"  Info="将针筒三角取下">
+      </Step>
+      <Step ID="6"  Info="将针筒舌针取下">
+      </Step>
+    </action>
+
+    <action Name="Zhuang">
+      <Step ID="0"  Info="安装导纱器">
+      </Step>
+      <Step ID="1"  Info="安装针盘三角座">
+      </Step>
+      <Step ID="2"  Info="安装针盘三角">
+      </Step>
+      <Step ID="3"  Info="安装针盘舌针">
+      </Step>
+      <Step ID="4"  Info="安装针筒三角座">
+      </Step>
+      <Step ID="5"  Info="安装针筒三角">
+      </Step>
+      <Step ID="6"  Info="安装针筒舌针">
+      </Step>
+    </action>
+  </Equ>
+</Content>

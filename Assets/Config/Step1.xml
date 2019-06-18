@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tent>
+  <WorkShop Name="564">
+    <ProductLine Name="fsdf">
+      <Equipment Name="yuy">
+        <EquipmentList>
+          <Part id="1" vec="(1.0, 1.0, 1.0)" />
+          <Part id="1" vec="(1.0, 1.0, 1.0)" />
+        </EquipmentList>
+      </Equipment>
+      <Equipment Name="yu">
+        <EquipmentList>
+          <Part id="1" vec="(1.0, 1.0, 1.0)" />
+        </EquipmentList>
+      </Equipment>
+    </ProductLine>
+  </WorkShop>
+</tent>
